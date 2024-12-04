@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10237717632",
+    "project_id": "boardinghub-35a0a",
+    "storage_bucket": "boardinghub-35a0a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10237717632:android:6e2082a92c5008357c8a65",
+        "android_client_info": {
+          "package_name": "com.example.boardinghub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb24slMeBQU_OojWbGII5snS_hEwOwCzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

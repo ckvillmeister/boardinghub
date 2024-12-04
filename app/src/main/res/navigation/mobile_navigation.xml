@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/overview">
+
+    <fragment
+        android:id="@+id/overview"
+        android:name="com.example.boardinghub.ui.overview.MapOverviewFragment"
+        android:label="Map Overview"
+        tools:layout="@layout/fragment_overview" />
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.boardinghub.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/reg_bh"
+        android:name="com.example.boardinghub.ui.regbhowner.RegBHOwnerFragment"
+        android:label="Register as Boarding House Owner"
+        tools:layout="@layout/fragment_reg_bh_owner" />
+</navigation>
