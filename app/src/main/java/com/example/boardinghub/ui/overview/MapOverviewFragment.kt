@@ -30,7 +30,9 @@ class MapOverviewFragment : Fragment(), OnMapReadyCallback {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.fragment_overview, container, false)
+        _binding = FragmentOverviewBinding.inflate(inflater, container, false)
+        //return inflater.inflate(R.layout.fragment_overview, container, false)
+        return binding.root
     }
 
     override fun onDestroyView() {

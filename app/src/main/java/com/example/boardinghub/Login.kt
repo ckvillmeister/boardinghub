@@ -44,7 +44,7 @@ class Login : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
         db = FirebaseFirestore.getInstance()
 
-        logo.setImageResource(R.mipmap.ic_boardinghub_logo_round)
+        logo.setImageResource(R.mipmap.ic_bh_newlogo)
 
         login.setOnClickListener {
             val user = username.text.toString().trim()

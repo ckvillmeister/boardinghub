@@ -6,17 +6,77 @@
     android:layout_height="match_parent"
     tools:context=".ui.profile.ProfileFragment">
 
-    <TextView
-        android:id="@+id/text_profile"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="141dp"
+        tools:src="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/profFullname"
+        android:layout_width="382dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="text"
         android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:layout_editor_absoluteX="14dp"
+        tools:text="CLARK KEVIN V. VILLAMOR" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Fullname"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/profFullname"
+        tools:layout_editor_absoluteX="100dp" />
+
+        <!-- Second Plain Text -->
+
+    <!-- EditText beside the second Plain Text -->
+
+    <TextView
+        android:id="@+id/secondTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:text="E-mail:"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="299dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/secondTextView"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+
+    <Button
+        android:id="@+id/profEdit"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/baseline_edit_24"
+        android:text="Edit"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

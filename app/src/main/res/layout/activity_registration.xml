@@ -19,18 +19,6 @@
         app:layout_constraintTop_toBottomOf="@+id/regPassword"
         tools:layout_editor_absoluteX="16dp" />
 
-    <ImageView
-        android:id="@+id/ivLogo"
-        android:layout_width="159dp"
-        android:layout_height="137dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:srcCompat="@mipmap/ic_boardinghub_logo_round" />
 
     <TextView
         android:id="@+id/txtHeader2"
@@ -42,7 +30,7 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivLogo2"
         app:layout_constraintVertical_bias="0.0" />
@@ -162,5 +150,18 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/regMiddlename" />
+
+    <ImageView
+        android:id="@+id/ivLogo2"
+        android:layout_width="157dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:src="@mipmap/ic_bh_newlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

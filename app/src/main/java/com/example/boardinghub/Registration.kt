@@ -47,8 +47,8 @@ class Registration : AppCompatActivity() {
         password = findViewById(R.id.regPassword)
         register = findViewById(R.id.regRegister)
         back = findViewById(R.id.regBack)
-        logo = findViewById(R.id.ivLogo)
-        logo.setImageResource(R.mipmap.ic_boardinghub_logo_round)
+        logo = findViewById(R.id.ivLogo2)
+        logo.setImageResource(R.mipmap.ic_bh_newlogo)
 
         register.setOnClickListener {
             var e_mail = email.text.toString().trim()
